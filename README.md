@@ -6,22 +6,22 @@ the Symfony2 framework.
 
 ## Installation
 
-### Step 1: Download bundle using composer
+### Step 1: Setup through composer
 
-Add it in your composer.json:
+First, add it to the list of dependencies inside your `composer.json`:
 
-``` js
+``` json
 {
     "require": {
-        "crowdvalley/crowdentials-api-wrapper": "dev-master"
+        "crowdvalley/crowdentials-api-wrapper-bundle": "dev-master"
     }
 }
 ```
 
-Now tell composer to download the bundle by running the command:
+Then simply install it with composer:
 
 ``` bash
-$ php composer.phar update crowdvalley/crowdentials-api-wrapper
+$> composer update crowdvalley/crowdentials-api-wrapper-bundle
 ```
 
 ### Step 2: Enable the bundle
