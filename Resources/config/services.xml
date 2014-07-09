@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="crowdvalley_crowdentials_api_wrapper.api_accreditation_wrapper" class="Crowdvalley\Crowdentials\Api\Accreditation\Wrapper">
+            <argument key="key">%crowdvalley_crowdentials_api_wrapper.api_key%</argument>
+            <argument key="base">%crowdvalley_crowdentials_api_wrapper.base_url%</argument>
+        </service>
+    </services>
+</container>
