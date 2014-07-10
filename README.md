@@ -59,7 +59,7 @@ crowdvalley_crowdentials_api_wrapper:
 Now you have access to the service `crowdentials_api`:
 
 ``` php
-/** @var \Crowdvalley\Crowdentials\Api\Accreditation\Wrapper @api */
+/** @var \Crowdvalley\Crowdentials\Api\Accreditation\Wrapper $api */
 $api = $this->getContainer()->get('crowdentials_api');
 ```
 
